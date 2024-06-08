@@ -9,11 +9,11 @@ The tool works by adjusting the rgb component selected of each offset'th pixel s
 The tool does not preserve characters not a-z and does not preserve capitalization.
 
 ## Example:
-Message: "abcd" -> "1234"
-Offset: 15
-Base: 31
-RGB Component: 0 (red)
-
+Message: "abcd" -> "1234"  
+Offset: 15  
+Base: 31  
+RGB Component: 0 (red)  
+  
 Pixel transformation in given image:
 - Pixel 0: (100, 100, 100) -> (94, 100, 100) - (94 % 31 = 1)
 - Pixel 15: (60, 255, 255) -> (33, 255, 255) - (33 % 31 = 2)
