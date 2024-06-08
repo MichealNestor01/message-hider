@@ -2,6 +2,8 @@
 
 Small tool which can be used to encrypt an alphabetical message into an image. To encrypt you select a message, offset, rgb component (r, g or b), image and base.   
 
+This tool was made to create a ctf challenge for the Leeds Computing Society CTF. 
+
 The tool works by adjusting the rgb component selected of each offset'th pixel such that that pixels rgb component value % base = character. 
 
 The tool does not preserve characters not a-z and does not preserve capitalization.
